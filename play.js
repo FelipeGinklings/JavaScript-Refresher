@@ -5,14 +5,14 @@ const hasHobbies = true;
 age = 30;
 
 const summerizerUser = (userName, userAge, userhasHobbies) => {
-    return (
-        'Name is ' +
-        userName +
-        ', age is ' +
-        userAge +
-        ' and the user has hobbies: ' +
-        userhasHobbies
-    );
+	return (
+		'Name is ' +
+		userName +
+		', age is ' +
+		userAge +
+		' and the user has hobbies: ' +
+		userhasHobbies
+	);
 };
 
 // const add = (a, b) => a + b;
