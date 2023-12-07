@@ -1,16 +1,16 @@
 const person = {
-    name: 'Felipe',
-    age: 29,
-    greet() {
-        console.log('Hello, I am ' + this.name);
-    },
-    // greet: function() {
-    //   console.log('Hello, I am ' + this.name);
-    // }
+	name: 'Felipe',
+	age: 29,
+	greet() {
+		console.log('Hello, I am ' + this.name);
+	},
+	// greet: function() {
+	//   console.log('Hello, I am ' + this.name);
+	// }
 };
 
 const printName = ({ name }) => {
-    console.log(name);
+	console.log(name);
 };
 
 printName(person);
