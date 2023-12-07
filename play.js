@@ -2,10 +2,9 @@ const name = 'Felipe';
 let age = 29;
 const hasHobbies = true;
 
-name = 'Felipe 2'
 age = 30;
 
-function sumarizeUser(userName, userAge, userhasHobbies) {
+const summerizerUser = (userName, userAge, userhasHobbies) => {
     return (
         'Name is ' +
         userName +
@@ -14,6 +13,14 @@ function sumarizeUser(userName, userAge, userhasHobbies) {
         ' and the user has hobbies: ' +
         userhasHobbies
     );
-}
+};
 
-console.log(sumarizeUser(name, age, hasHobbies));
+// const add = (a, b) => a + b;
+// const addOne = (a) => a + 1;
+const addRandom = () => 1 + 2;
+
+// console.log(add(1, 2));
+// console.log(addOne(2));
+console.log(addRandom());
+
+console.log(summerizerUser(name, age, hasHobbies));
