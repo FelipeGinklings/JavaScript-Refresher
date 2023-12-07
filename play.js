@@ -1,6 +1,9 @@
-var name = 'Felipe';
-var age = 29;
-var hasHobbies = true;
+const name = 'Felipe';
+let age = 29;
+const hasHobbies = true;
+
+name = 'Felipe 2'
+age = 30;
 
 function sumarizeUser(userName, userAge, userhasHobbies) {
     return (
